@@ -1,0 +1,25 @@
+{
+  "author": "igorlogius",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": { "default": "Ctrl+Shift+C" } 
+    }
+  },
+  "icons": {
+    "64": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Close Containers",
+  "permissions": [
+    "cookies",
+    "contextualIdentities"
+  ],
+  "version": "1.0.0"
+}
